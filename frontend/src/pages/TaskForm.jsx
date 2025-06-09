@@ -28,7 +28,7 @@ const TaskForm = () => {
         }
 
         dispatch(reset());
-    }, [user, navigate, isError, message, isSuccess])
+    }, [user, navigate, isError, message, isSuccess , dispatch])
 
     const onChange = (e) => {
         setFormData(prevState => ({
