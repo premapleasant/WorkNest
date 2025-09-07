@@ -1,0 +1,110 @@
+/* Remove default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full screen background split */
+.register {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #6C63FF 50%, #F3F3F3 50%);
+  font-family: Arial, sans-serif;
+}
+
+/* Card in center */
+.register-card {
+  display: flex;
+  width: 70%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Left segment for form */
+.register-form {
+  flex: 1;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Inputs full width */
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Right segment: image */
+.register-image {
+  flex: 1;
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-image img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
+
+/* Title */
+.register-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+/* Button */
+.register-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #6C63FF;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #574fd6;
+}
+
+/* Login redirect */
+.login-redirect {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.login-redirect a {
+  color: #6C63FF;
+  text-decoration: none;
+}
+
+.login-redirect a:hover {
+  text-decoration: underline;
+}
