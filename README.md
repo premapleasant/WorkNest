@@ -26,30 +26,30 @@ It helps users securely manage tasks with features like authentication, task org
 ## 📸 Screenshots
 
 ### 1. Home Page  
-![Home](assets/home.png)
+![Home](public/assets/Home.png)
 
 ### 2. Login Page  
-![Login](assets/login.png)
+![Login](public/assets/Login.png)
 
 ### 3. Register Page  
-![Register](assets/register.png)
+![Register](public/assets/Register.png)
 
 ### 4. Dashboard  
-![Dashboard](assets/dashboard.png)
+![Dashboard](public/assets/Dashboard.png)
 
 ### 5. Archive Section  
-![Archive](assets/archive.png)
+![Archive](public/assets/Archive.png)
 
 ### 6. Trash Section  
-![Trash](assets/trash.png)
+![Trash](public/assets/Trash.png)
 
 ### 7. Dark Theme  
-![Dark Theme](assets/dark_theme.png)
+![Dark Theme](public/assets/Dark_Theme.png)
 
 ---
 
 ## 🎥 Live Demo
-👉 [Watch the Demo Video](https://drive.google.com/your-demo-link)  
+👉 [Watch the Demo Video](https://drive.google.com/file/d/1mR7tNRal1agPc1jIrM5GTFJp-GIkhoNM/view?usp=drivesdk)  
 
 ---
 
