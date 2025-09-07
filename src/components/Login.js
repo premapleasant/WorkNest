@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
+import {Link} from "react-router-dom";
 
 function Login() {
   const [inputs, setInputs] = useState({ email: "", password: "" });
@@ -64,7 +65,7 @@ function Login() {
           </div>
 
           <p className="register-link">
-            Don’t have an account? <a href="/register">Register</a>
+            Don’t have an account? <Link to='/register'>Register</Link>
           </p>
         </form>
 

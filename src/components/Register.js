@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import './Register.css';
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Register() {
   const [inputs, setInputs] = useState({ name: "", email: "", password: "" });
@@ -70,7 +71,7 @@ function Register() {
           </div>
 
           <p className="login-redirect">
-            Already have an account? <a href="/login">Login here</a>
+            Already have an account? <Link to='/Login'>Login</Link>
           </p>
         </form>
 
