@@ -26,10 +26,10 @@ It helps users securely manage tasks with features like authentication, task org
 ## 📸 Screenshots
 
 ### 1. Home Page  
-![Home](assets/home.png)
+![Home](public/assets/Home.png)
 
 ### 2. Login Page  
-![Login](assets/login.png)
+![Login](public/assets/Login.png)
 
 ### 3. Register Page  
 ![Register](assets/register.png)
